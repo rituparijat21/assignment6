@@ -1,0 +1,82 @@
+1 
+memo=[]
+for i in range (10):
+    x=int(input("enter no. \n"))
+    memo.append(i,x)
+    i+=1
+    print(memo)
+
+
+2
+while True:
+print("ritu")
+
+3
+list=[]
+for i in range(0,8)
+x= int(input("enter the number"))
+list.append(x)
+square=[]
+for x in list
+x=x**2
+list.append(x)
+
+
+
+
+
+
+
+
+4 member=[1,2,'data',5.6,9.2,'ritu']
+y=[]
+z=[]
+k=[]
+for x in member:
+ if (type(x)==int):
+    y.append(x)
+ elif(type(x)==str):
+    z.append(x)
+ else:
+    k.append(x)
+
+
+5
+for num in range(1,101):
+    for i in range(2,num):
+        if(num%i==0):
+            break
+        else:
+            print(num)
+            break
+
+6
+num=int(input("enter no of rows:"))
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print("*",end="")
+        
+
+7
+import operator
+d = eval(input('Enter Dictionary: '))
+search_age = input("Provide age")
+for age in dictionary.values():
+    if age == search_age:
+        name = dictionary[age]
+        print name
+Enter Dictionary:{'george' : 16, 'amber' : 19}
+"Provide age" 16
+'george' : 16
+
+8
+list=[]
+count = int(input("enter the no of input in the list"))
+for x in range(count):
+    list.append(input("enter the element in the list"))
+print(list)
+searchitem = input("enter the item to be searched")
+for item in list:
+    if searchitem == item:
+    list.remove(item)
+print(list)
